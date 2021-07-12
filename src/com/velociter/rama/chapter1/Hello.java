@@ -3,6 +3,7 @@ package com.velociter.rama.chapter1;
 public class Hello {
    static int a=10;
    static int b=20;
+   int x,y;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
        System.out.println("Hi Hello, Thank you ");
