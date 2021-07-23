@@ -19,13 +19,13 @@ public class ZodiacSign {
 		            sign = "Pisces";
 		      }
 		      else if(month == "March") {
-		         if (day < 21)
+		         if (day < 22)
 		            sign = "Pisces";
 		         else
 		            sign = "Aries";
 		      }
 		      else if (month == "April") {
-		         if (day < 20)
+		         if (day < 23)
 		            sign = "Aries";
 		         else
 		            sign = "Taurus";
