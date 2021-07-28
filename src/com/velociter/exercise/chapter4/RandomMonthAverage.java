@@ -1,22 +1,23 @@
-package com.velociter.exercise.chapter4;
+ package com.velociter.exercise.chapter4;
 
-public class Month {
+public class RandomMonthAverage {
 	   public static void main(String a[])
 	   {
-	 String[] mon={"January","Febuary","March","April","May","June","July","August","september","October","November","December"}; 
-	 int i;
+		   //create string 
+	 String[] month={"January","Febuary","March","April","May","June","July","August","september","October","November","December"}; 
+	 int number;
 	 double sum=0; 
-	 double n[]=new double[12];
+	 double numberArray[]=new double[12];
 	 System.out.println("Random number");
-	 for(i=0;i<12;i++)
+	 for(number=0;number<12;number++)
 	 {
-	  n[i]=((100.00*Math.random())+1);
+		 numberArray[number]=((100.00*Math.random())+1);
 	 }
-	 for(i=0;i<12;i++)
+	 for(number=0;number<12;number++)
 	 {
-	  System.out.print(+n[i]+".");
-	  System.out.println(mon[i]);
-	  sum=sum+n[i];
+	  System.out.print(+numberArray[number]+".");
+	  System.out.println(month[number]);
+	  sum=sum+numberArray[number];
 	 }  
 	 System.out.println("Sum of 12 number :"+sum); 
 	 System.out.println("Average :"+(sum/12));
