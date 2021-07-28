@@ -1,8 +1,10 @@
 package com.velociter.exception.chapter7.exrecise6;
 
-public class ItrationException {
+public class HandleArithmeticException
+{
 
-		public static void main(String[] args) {
+		public static void main(String[] args)
+		{
 			int j =  (int)(3*Math.random());
 			try {
 			System.out.println("Try block entered.");
@@ -17,9 +19,13 @@ public class ItrationException {
 			finally {
 				int i=0;
 			System.out.println(" to ready reassine ");
+			}
+		}
+}		
+			
 			
 
-	}
+	
 
-		}
-		}
+		 
+		
