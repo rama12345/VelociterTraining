@@ -1,6 +1,6 @@
 package com.velociter.exercise.chapter2;
 
-public class FirstExc1{
+public class ByteNumberMultiplication{
 	
 	public static void main(String[] args) {
 		byte a=1;
