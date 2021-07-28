@@ -1,7 +1,7 @@
-package com.velociter.exercise.chapter2;
+ package com.velociter.exercise.chapter2;
 
 
-public class Tax {
+public class CalculateIncomeTax {
 	float income,taxRate,rs; 
 	//create a instance variable
 	 int taxDollars, taxCents;
@@ -22,7 +22,7 @@ public class Tax {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 //Create object.
-		Tax obj=new Tax();//creating object of class
+		CalculateIncomeTax obj=new CalculateIncomeTax();//creating object of class
 		//Calling calculateTax method to required pass two values to the argument if it is parameterized method or constructor  
 		float taxCents= obj.calculateTax();
 		 System.out.println("Tax Rate in Paisa="+taxCents);	}
