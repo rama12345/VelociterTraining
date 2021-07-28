@@ -1,6 +1,6 @@
 package com.velociter.exception.chapter7.exrecise6;
 
-public class FInallyBlock
+public class AddFInallyBlock
 {
 
 		public static void main(String[] args) {
