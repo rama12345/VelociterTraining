@@ -1,9 +1,10 @@
 package com.velociter.exercise.chapter4;
 
-public class Tables {
+public class Matrix {
 
 	public static void main(String[] args) {
-		int[][] table = new int[12][12];
+		int n =12;
+		int[][] table = new int[n][];
 
 
 	     for(int i=0; i <= table.length-1; i++)
